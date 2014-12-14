@@ -13,6 +13,7 @@
 		BB7010281A3BFB9100EF5F9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7010271A3BFB9100EF5F9D /* Images.xcassets */; };
 		BB70102B1A3BFB9100EF5F9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7010291A3BFB9100EF5F9D /* LaunchScreen.xib */; };
 		BB7010371A3BFB9100EF5F9D /* musicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7010361A3BFB9100EF5F9D /* musicAppTests.swift */; };
+		BBC1CC5E1A3D43300097A59A /* MusicButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1CC5D1A3D43300097A59A /* MusicButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BB7010301A3BFB9100EF5F9D /* musicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7010351A3BFB9100EF5F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB7010361A3BFB9100EF5F9D /* musicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicAppTests.swift; sourceTree = "<group>"; };
+		BBC1CC5D1A3D43300097A59A /* MusicButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicButtonExtension.swift; path = ../MusicButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BB70101D1A3BFB9100EF5F9D /* musicApp */ = {
 			isa = PBXGroup;
 			children = (
+				BBC1CC5D1A3D43300097A59A /* MusicButtonExtension.swift */,
 				BB7010201A3BFB9100EF5F9D /* AppDelegate.swift */,
 				BB7010221A3BFB9100EF5F9D /* ViewController.swift */,
 				BB7010241A3BFB9100EF5F9D /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				BB7010231A3BFB9100EF5F9D /* ViewController.swift in Sources */,
 				BB7010211A3BFB9100EF5F9D /* AppDelegate.swift in Sources */,
+				BBC1CC5E1A3D43300097A59A /* MusicButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				BB70103C1A3BFB9100EF5F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB70103D1A3BFB9100EF5F9D /* Build configuration list for PBXNativeTarget "musicAppTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				BB70103F1A3BFB9100EF5F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
